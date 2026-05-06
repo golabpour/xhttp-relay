@@ -1,9 +1,7 @@
 {
   "functions": {
     "api/**/*.js": {
-      "memory": 128,
-      "maxDuration": 60,
-      "regions": ["iad1"]
+      "runtime": "nodejs20.x"
     }
   }
 }
